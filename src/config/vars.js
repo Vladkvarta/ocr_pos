@@ -10,8 +10,8 @@ const GEMINI_API_KEY = SCRIPT_PROPERTIES.getProperty('GEMINI_API_KEY');
 // --- Telegram ---
 const BOT_USERNAME = 'Smakuie_Bot';
 const tgBotUrl = 'https://api.telegram.org/bot' + TELEGRAM_BOT_TOKEN;
-const hookUrl = 'https://script.google.com/macros/s/AKfycbycwVsWbPLON1CWIgEDTL3bGp7SHMw4hL64LxDdpeD84-9fvichNdOwtUl3dSm9h1YlDQ/exec';
-const DEBUG_CHAT_ID = '6883681113'; // ID для получения логов
+const hookUrl = 'https://script.google.com/macros/s/';
+const DEBUG_CHAT_ID = ''; // ID для получения логов
 
 // --- Gemini AI ---
 const GEMINI_MODEL_NAME = 'gemini-1.5-flash'; 
@@ -23,7 +23,7 @@ const TIME_LOG_SHEET_NAME = 'Учет Времени';
 
 // --- SkyService ---
 const SKY_TOKEN = "824E5BhNSK37TTK9Zr96Zr4HBtFzRNHe";
-const SKY_DEVICE_UUID = "365a4c49-50a9-4478-9715-a1c2cc03bd36";
+const SKY_DEVICE_UUID = "";
 const SKY_API_URL = "https://xn-l3h.api.skyservice.online/";
 const SKY_TIMEZONE = -3; // Часовой пояс для запросов в SkyService
 
@@ -32,19 +32,19 @@ const SKY_TIMEZONE = -3; // Часовой пояс для запросов в S
 const TRADE_POINTS_CONFIG = {
   "1": { 
     name: "Maybe Coffee", 
-    companyId: "13d2931a-37f8-45c4-91d1-82820fdd4301", 
+    companyId: "", 
     tradePointId: 2,
     warehouseId: 2 
   },
   "2": { 
     name: "Смакує", 
-    companyId: "13d2931a-37f8-45c4-91d1-82820fdd4301", // ID Компании 1
+    companyId: "", // ID Компании 1
     tradePointId: 3, 
     warehouseId: 4 
   },
   "3": {
     name: "Цех",
-    companyId: "2559bbcc-050c-4890-acee-95aeeb09b97c", // ID Компании 2
+    companyId: "", // ID Компании 2
     tradePointId: 1, 
     warehouseId: 1
   }
